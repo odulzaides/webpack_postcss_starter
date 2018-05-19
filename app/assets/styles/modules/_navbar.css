@@ -1,0 +1,15 @@
+.site-header {
+    display:flex;
+    position:relative;
+    background: $mainBlue;
+
+    &__logo {
+    background:green;
+
+    }
+    &--nav {
+        position:relative;
+        right:10px;
+        color:white;
+    }
+}
